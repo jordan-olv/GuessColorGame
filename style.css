@@ -82,6 +82,7 @@ main > button {
   border-radius: 1rem;
   width: 12rem;
   height: 11rem;
+  flex-grow: 1;
   flex-shrink: 0;
   cursor: pointer;
   box-shadow: 0 5px rgb(179, 179, 179);
@@ -196,9 +197,15 @@ main > button:active {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    height: fit-content;
   }
 
   main button {
     width: 45%;
+    height: 32%;
+  }
+
+  nav {
+    height: 4%;
   }
 }
