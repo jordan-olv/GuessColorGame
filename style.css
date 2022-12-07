@@ -37,7 +37,6 @@ body {
   flex-direction: column;
   background: #f7f7f7;
   border-radius: 1rem;
-  overflow: hidden;
   min-width: 35%;
   min-height: 45%;
 }
